@@ -34,10 +34,11 @@ src/
 
 **Clone the repository**
 
-````
+```
    git clone https://github.com/marryamabid/travel-journal.git
    cd travel-journal
 ```
+
 Install dependencies
 
 ```
@@ -74,4 +75,3 @@ Marryam Abid
 
 📝 License
 This project is open source and free to use.
-````
