@@ -32,13 +32,13 @@ src/
 
 ## 📦 How to Run Locally
 
-1. **Clone the repository**
-   ````
+**Clone the repository**
+
+````
    git clone https://github.com/marryamabid/travel-journal.git
    cd travel-journal
-    ```
-   Install dependencies
-   ````
+```
+Install dependencies
 
 ```
 npm install
@@ -74,3 +74,4 @@ Marryam Abid
 
 📝 License
 This project is open source and free to use.
+````
