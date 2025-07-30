@@ -1,13 +1,76 @@
-# React + Vite
+# 🌍 Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project called **Travel Journal**. It showcases different travel destinations around the world in the form of journal entries, each with a photo, location, map link, and description.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Travel Journal Screenshot](./preview.png)
 
-## Expanding the ESLint configuration
+> A React-based UI featuring travel entries from Japan, Australia, and Norway.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# travel-journal
+## 🛠️ Tech Stack
+
+- React (Vite)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## 📁 Project Structure
+
+src/
+│
+├── assets/
+│ ├── globe.png
+│ └── fill 219.png
+│
+├── Components/
+│ ├── Entry.jsx
+│ └── Header.jsx
+│
+├── data.js
+└── App.jsx
+
+## 📦 How to Run Locally
+
+1. **Clone the repository**
+   ````
+   git clone https://github.com/marryamabid/travel-journal.git
+   cd travel-journal
+    ```
+   Install dependencies
+   ````
+
+```
+npm install
+```
+
+Run the project
+
+```
+npm run dev
+```
+
+Open in browser
+Go to http://localhost:5173
+
+📖 Features
+Dynamic rendering of entries using .map()
+
+Component-based architecture
+
+Simple and clean UI
+
+Google Maps link integration
+
+📌 Future Improvements
+Add more travel entries from a backend or API
+
+Add routing for each destination
+
+Include a dark mode toggle
+
+🧑‍💻 Author
+Marryam Abid
+
+📝 License
+This project is open source and free to use.
